@@ -1,6 +1,6 @@
 {
   "vaultName": "Personal page",
-  "lastExport": 1722129357934,
+  "lastExport": 1722219770065,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -12,12 +12,26 @@
     "Files/gas_flows_conflict.png",
     "Files/gas_flows_e3me.png",
     "Files/kiss_dobronyi_cv_public_2024_july.pdf",
+    "Files/posts_eu_energy_fig1_2018.png",
+    "Files/posts_eu_energy_fig2_2018.png",
+    "Files/posts_eu_energy_fig3_2018.png",
+    "Files/posts_eu_energy_fig4_2018.png",
+    "Files/posts_eu_energy_fig5_2018.png",
+    "Files/posts_eu_energy_fig6_2018.png",
+    "Files/posts_eu_energy_fig7_2018.png",
+    "Files/posts_terror_attacks_fig1_2018.png",
+    "Files/posts_terror_attacks_fig2_2018.png",
+    "Files/posts_terror_attacks_fig3_2018.png",
+    "Files/posts_terror_attacks_fig4_2018.png",
+    "Files/posts_terror_attacks_fig5_2018.png",
     "Files/recovery_hu.png",
     "Files/recovery_idn.png",
     "Files/recovery_poster.jpg",
     "Files/recovery_poster2.jpg",
     "Files/unpage_fig3.png",
     "Files/unpage_fig4.png",
+    "Posts/Deadliness of terror attacks in Europe.md",
+    "Posts/EU-28 Energy structures cheat sheet.md",
     "Topics/Carbon pricing, markets, emission trading and CBAM.md",
     "Topics/Energy security and the Russian invasion of Ukraine.md",
     "Topics/Green recovery after COVID.md",
@@ -60,213 +74,297 @@
   ],
   "fileInfo": {
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "Files/bence_small 2.jpg": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 23469,
       "exportedPath": "Files/bence_small 2.jpg",
       "dependencies": []
     },
     "Research.md": {
-      "modifiedTime": 1722129357934,
-      "sourceSize": 1696,
+      "modifiedTime": 1722219770065,
+      "sourceSize": 1731,
       "exportedPath": "Research.html",
       "dependencies": []
     },
     "CV.md": {
-      "modifiedTime": 1722129357934,
-      "sourceSize": 573,
+      "modifiedTime": 1722219770065,
+      "sourceSize": 607,
       "exportedPath": "CV.html",
       "dependencies": []
     },
     "Teaching.md": {
-      "modifiedTime": 1722129357934,
-      "sourceSize": 400,
+      "modifiedTime": 1722219770065,
+      "sourceSize": 434,
       "exportedPath": "Teaching.html",
       "dependencies": []
     },
     "Thinking.md": {
-      "modifiedTime": 1722129357934,
-      "sourceSize": 401,
+      "modifiedTime": 1722219770065,
+      "sourceSize": 1029,
       "exportedPath": "Thinking.html",
       "dependencies": []
     },
     "Files/kiss_dobronyi_cv_public_2024_july.pdf": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 224157,
       "exportedPath": "Files/kiss_dobronyi_cv_public_2024_july.pdf",
       "dependencies": []
     },
     "Other.md": {
-      "modifiedTime": 1722129357934,
-      "sourceSize": 400,
+      "modifiedTime": 1722219770065,
+      "sourceSize": 434,
       "exportedPath": "Other.html",
       "dependencies": []
     },
     "Bence Kiss-Dobronyi.md": {
-      "modifiedTime": 1722129357934,
-      "sourceSize": 2240,
+      "modifiedTime": 1722219770065,
+      "sourceSize": 2274,
       "exportedPath": "Bence Kiss-Dobronyi.html",
       "dependencies": []
     },
     "Files/recovery_hu.png": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 555282,
       "exportedPath": "Files/recovery_hu.png",
       "dependencies": []
     },
     "Files/recovery_idn.png": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 156617,
       "exportedPath": "Files/recovery_idn.png",
       "dependencies": []
     },
     "Files/recovery_poster.jpg": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 190277,
       "exportedPath": "Files/recovery_poster.jpg",
       "dependencies": []
     },
     "Files/recovery_poster2.jpg": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 146998,
       "exportedPath": "Files/recovery_poster2.jpg",
       "dependencies": []
     },
     "Files/unpage_fig3.png": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 113480,
       "exportedPath": "Files/unpage_fig3.png",
       "dependencies": []
     },
     "Files/unpage_fig4.png": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 313168,
       "exportedPath": "Files/unpage_fig4.png",
       "dependencies": []
     },
     "Topics/Green recovery after COVID.md": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 3814,
       "exportedPath": "Topics/Green recovery after COVID.html",
       "dependencies": []
     },
     "Files/cbam_figure.png": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 198164,
       "exportedPath": "Files/cbam_figure.png",
       "dependencies": []
     },
     "Files/g20_gggi.pdf": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 2514227,
       "exportedPath": "Files/g20_gggi.pdf",
       "dependencies": []
     },
     "Files/gas_flows_conflict.png": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 714417,
       "exportedPath": "Files/gas_flows_conflict.png",
       "dependencies": []
     },
     "Files/gas_flows_e3me.png": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 135699,
       "exportedPath": "Files/gas_flows_e3me.png",
       "dependencies": []
     },
     "Topics/Carbon pricing, markets, emission trading and CBAM.md": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 2207,
       "exportedPath": "Topics/Carbon pricing, markets, emission trading and CBAM.html",
       "dependencies": []
     },
     "Topics/Energy security and the Russian invasion of Ukraine.md": {
-      "modifiedTime": 1722129357934,
+      "modifiedTime": 1722219770065,
       "sourceSize": 2061,
       "exportedPath": "Topics/Energy security and the Russian invasion of Ukraine.html",
+      "dependencies": []
+    },
+    "Files/posts_eu_energy_fig1_2018.png": {
+      "modifiedTime": 1722219770065,
+      "sourceSize": 386715,
+      "exportedPath": "Files/posts_eu_energy_fig1_2018.png",
+      "dependencies": []
+    },
+    "Files/posts_eu_energy_fig2_2018.png": {
+      "modifiedTime": 1722219770065,
+      "sourceSize": 847440,
+      "exportedPath": "Files/posts_eu_energy_fig2_2018.png",
+      "dependencies": []
+    },
+    "Files/posts_eu_energy_fig3_2018.png": {
+      "modifiedTime": 1722219770065,
+      "sourceSize": 235070,
+      "exportedPath": "Files/posts_eu_energy_fig3_2018.png",
+      "dependencies": []
+    },
+    "Files/posts_eu_energy_fig4_2018.png": {
+      "modifiedTime": 1722219770065,
+      "sourceSize": 197772,
+      "exportedPath": "Files/posts_eu_energy_fig4_2018.png",
+      "dependencies": []
+    },
+    "Files/posts_eu_energy_fig5_2018.png": {
+      "modifiedTime": 1722219770065,
+      "sourceSize": 37086,
+      "exportedPath": "Files/posts_eu_energy_fig5_2018.png",
+      "dependencies": []
+    },
+    "Files/posts_eu_energy_fig6_2018.png": {
+      "modifiedTime": 1722219770065,
+      "sourceSize": 215575,
+      "exportedPath": "Files/posts_eu_energy_fig6_2018.png",
+      "dependencies": []
+    },
+    "Files/posts_eu_energy_fig7_2018.png": {
+      "modifiedTime": 1722219770065,
+      "sourceSize": 1407615,
+      "exportedPath": "Files/posts_eu_energy_fig7_2018.png",
+      "dependencies": []
+    },
+    "Files/posts_terror_attacks_fig1_2018.png": {
+      "modifiedTime": 1722219770065,
+      "sourceSize": 283070,
+      "exportedPath": "Files/posts_terror_attacks_fig1_2018.png",
+      "dependencies": []
+    },
+    "Files/posts_terror_attacks_fig2_2018.png": {
+      "modifiedTime": 1722219770065,
+      "sourceSize": 209063,
+      "exportedPath": "Files/posts_terror_attacks_fig2_2018.png",
+      "dependencies": []
+    },
+    "Files/posts_terror_attacks_fig3_2018.png": {
+      "modifiedTime": 1722219770065,
+      "sourceSize": 165119,
+      "exportedPath": "Files/posts_terror_attacks_fig3_2018.png",
+      "dependencies": []
+    },
+    "Files/posts_terror_attacks_fig4_2018.png": {
+      "modifiedTime": 1722219770065,
+      "sourceSize": 111394,
+      "exportedPath": "Files/posts_terror_attacks_fig4_2018.png",
+      "dependencies": []
+    },
+    "Files/posts_terror_attacks_fig5_2018.png": {
+      "modifiedTime": 1722219770065,
+      "sourceSize": 1133661,
+      "exportedPath": "Files/posts_terror_attacks_fig5_2018.png",
+      "dependencies": []
+    },
+    "Posts/Deadliness of terror attacks in Europe.md": {
+      "modifiedTime": 1722219770065,
+      "sourceSize": 9201,
+      "exportedPath": "Posts/Deadliness of terror attacks in Europe.html",
+      "dependencies": []
+    },
+    "Posts/EU-28 Energy structures cheat sheet.md": {
+      "modifiedTime": 1722219770065,
+      "sourceSize": 9911,
+      "exportedPath": "Posts/EU-28 Energy structures cheat sheet.html",
       "dependencies": []
     }
   }
