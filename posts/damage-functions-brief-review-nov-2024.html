@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.11/katex.min.css">
 </head>
 <body>
 <header class="site-header">
@@ -38,21 +39,21 @@
 <ul>
 <li><a href="#new-ngfs-damages">New NGFS damages</a></li>
 <li><a href="#damage-functions-new-developments">Damage functions - new developments</a><ul>
-<li><a href="#damage-functions-new-developments-type-of-damage-functions">Type of damage functions</a></li>
-<li><a href="#damage-functions-new-developments-features-of-econometric-damage-functions">Features of econometric damage functions</a><ul>
-<li><a href="#features-of-econometric-damage-functions-climate-variables">Climate variables</a></li>
-<li><a href="#features-of-econometric-damage-functions-time-persistence-of-effects">Time persistence of effects</a></li>
-<li><a href="#features-of-econometric-damage-functions-functional-form-linear-vs-non-linear">Functional form - Linear vs non-linear</a></li>
+<li><a href="#type-of-damage-functions">Type of damage functions</a></li>
+<li><a href="#features-of-econometric-damage-functions">Features of econometric damage functions</a><ul>
+<li><a href="#climate-variables">Climate variables</a></li>
+<li><a href="#time-persistence-of-effects">Time persistence of effects</a></li>
+<li><a href="#functional-form-linear-vs-non-linear">Functional form - Linear vs non-linear</a></li>
 </ul>
 </li>
 </ul>
 </li>
 <li><a href="#whats-still-missing">What&#39;s still missing?</a><ul>
-<li><a href="#whats-still-missing-identifying-climate-change-from-short-term-fluctuations">Identifying climate change from short-term fluctuations</a></li>
-<li><a href="#whats-still-missing-tipping-points-tails-risks">Tipping points / tails risks</a></li>
-<li><a href="#whats-still-missing-long-term-adaptation-and-implicit-short-term-adaptation">Long-term adaptation and implicit short-term adaptation</a></li>
-<li><a href="#whats-still-missing-missing-impact-channels">Missing impact channels</a></li>
-<li><a href="#whats-still-missing-spill-over-effects-are-missing">Spill-over effects are missing</a></li>
+<li><a href="#identifying-climate-change-from-short-term-fluctuations">Identifying climate change from short-term fluctuations</a></li>
+<li><a href="#tipping-points-tails-risks">Tipping points / tails risks</a></li>
+<li><a href="#long-term-adaptation-and-implicit-short-term-adaptation">Long-term adaptation and implicit short-term adaptation</a></li>
+<li><a href="#missing-impact-channels">Missing impact channels</a></li>
+<li><a href="#spill-over-effects-are-missing">Spill-over effects are missing</a></li>
 </ul>
 </li>
 <li><a href="#references">References</a></li>
@@ -63,7 +64,7 @@
 <p>They also note that the <strong>temporal dynamics of the damages</strong> and the <strong>geographical distribution</strong> is substantially different from the old damage function outcomes. Notably, <strong>effects are even stronger negative for hot countries</strong>; and while under a mitigation scenario the long-term outcomes are similar, the new damage function brings a stronger negative medium-term impact - even in the case of strong mitigation action (see figure below).</p>
 <img src="../assets/Pasted%20image%2020241106151916.png" alt="" loading="lazy"><p>However, as they note, these estimates <strong>are still presented in a context of <em>otherwise</em> high economic growth</strong>. From today the scenarios still assume a <strong>150-180% growth of GDP by the end of the century</strong> (population growth in the same period is assumed to be ~30% compared to today).</p>
 <h2 id="damage-functions-new-developments">Damage functions - new developments</h2>
-<p>The NGFS technical note presents a table of damage estimates from various studies. These range (for $3^{\circ}C$ warming) from 2% (Nordhaus, 2014) to 44% (Bilal, 2024) for global GDP loss. (See below)</p>
+<p>The NGFS technical note presents a table of damage estimates from various studies. These range (for \(3^{\circ}C\) warming) from 2% (Nordhaus, 2014) to 44% (Bilal, 2024) for global GDP loss. (See below)</p>
 <img src="../assets/Pasted%20image%2020241106152502.png" alt="" loading="lazy"><p>Some of these damages functions are since known to be limited or questionable (e.g., Tol, 2014). In my opinion at least, one of the more robust and used (as in used in applied analysis) estimates are in the <strong>Burke at al. (2015)</strong> (or also known as Burke &amp; Hsiang) paper, which made the point of <em>non-linear</em> and <em>permanent (i.e., growth decreasing)</em> damages. </p>
 <p>Previous NGFS iterations have been using <strong>Kalkuhl &amp; Wenz (2020)</strong>. While currently we are mostly discussing novel studies such as <strong>Kotz et al. (2024)</strong> and <strong>Bilal &amp; Känzig (2024)</strong>. These four studies all employ an <em>econometric</em> method, where they identify climate damages from observed economic output reactions to various climate variables, but more on this later.</p>
 <h3 id="type-of-damage-functions">Type of damage functions</h3>
@@ -72,7 +73,7 @@
 <thead>
 <tr>
 <th>Type</th>
-<th>Damage est. $3^{\circ}$ warming, by 2100</th>
+<th>Damage est. \(3^{\circ}\) warming, by 2100</th>
 <th>Ref</th>
 </tr>
 </thead>
@@ -99,7 +100,7 @@
 <tr>
 <td>Meta-study</td>
 <td>about 2%*-8%</td>
-<td>Tol (2024, *$4.3^{\circ}$ warming, excludes <em>Burke (2015)</em> and <em>Dell (2012)</em> for example) - Howard &amp; Sterner (2017, based on Nordhaus-Tol mostly)</td>
+<td>Tol (2024, *\(4.3^{\circ}\) warming, excludes <em>Burke (2015)</em> and <em>Dell (2012)</em> for example) - Howard &amp; Sterner (2017, based on Nordhaus-Tol mostly)</td>
 </tr>
 </tbody></table>
 <p>It is important to note that most applied (modelling) work choose to rely on the <strong>econometric</strong> estimates, not only because they tend to be more robust in their methods / grounding, but also because they give a more <em>realistic</em> picture of expected damages (if a non-economist looks at them). Some novel exercises, that use other approaches (e.g., CGE), might still use econometric estimation to derive their initial climate damage estimates, that they use to parameterise their modelling (Fernando and Lepore 2023). </p>
@@ -126,7 +127,7 @@
 <p>The figure below, from Aerts, Stracca, and Trzcinska (2024) shows this. In the context of climate change however, we&#39;re expecting annual, cascading shocks, not one-off permanent shocks.</p>
 <img src="../assets/Pasted%20image%2020241106170545.png" alt="" loading="lazy" style="max-width:350px"><p>We can represent this visually such as:</p>
 <img src="../assets/Pasted%20image%2020241106180225.png" alt="" loading="lazy"><p>More recently a new approach is adopted, this is the approach used in the NGFS new damage function as well. This approach <em>somewhat</em> combines the <em>level-effect</em> with a growth effect. Both Bilal and Känzig (2024) and Kotz et al (2024) employs this method. The method is labelled a <strong>persistent effect</strong>* method (<em>in contrast to <strong>permanent effect</strong> of the growth effect</em>) and while it starts with the assumptions of the level-effect, it employs lagged terms in the estimations, therefore opening up the way towards modelling <em><strong>persistent</strong></em> effects.</p>
-<p>The figure below from Bilal and Känzig (2024) illustrates this. In this <em>impulse response</em> chart they show the temporal dynamics of a global temperature shock of $1^{\circ}$. Kotz et al (2024) specify different lags for their different climate variables: 10 years for temperature, 4 years for precipitation variables. <strong>Notably, this also means that the growth rate reverses after the shock to the pre-shock level after the 10 years have passed.</strong></p>
+<p>The figure below from Bilal and Känzig (2024) illustrates this. In this <em>impulse response</em> chart they show the temporal dynamics of a global temperature shock of \(1^{\circ}\). Kotz et al (2024) specify different lags for their different climate variables: 10 years for temperature, 4 years for precipitation variables. <strong>Notably, this also means that the growth rate reverses after the shock to the pre-shock level after the 10 years have passed.</strong></p>
 <img src="../assets/Pasted%20image%2020241106184446.png" alt="" loading="lazy" style="max-width:350px"><blockquote>
 <p>[!NOTE]<br>My take: Tol (2024) argues that the <em>growth-hypothesis</em> has been proven to be wrong. I don&#39;t  think he is right. Not only the Burke et al (2015) approach is more intuitive (and easier to understand by non-economists), but Dell et al (2012) also confirmed the effect <strong>only</strong> for low-income countries, which <strong>points into the direction of a <em>vulnerability-persistance</em> relationship</strong>. The Kotz et al (2024) approach even positions itself as a <em>middle ground</em> between the two approaches.</p>
 <p>**While I think theoretically the <em>growth</em> approach is more realistic there are various issues in confirming it empirically (I will get back to this). The persistence approach is indeed a good middle ground, although the duration of persistence <em>might not be independent of vulnerability</em>. **</p>
@@ -159,7 +160,7 @@
 </tr>
 <tr>
 <td>Dietz and Stern (2015)</td>
-<td>modified non-integer reciprocal polynomial, with the aim of 50% damage at $6^{\circ}$ warming</td>
+<td>modified non-integer reciprocal polynomial, with the aim of 50% damage at \(6^{\circ}\) warming</td>
 </tr>
 <tr>
 <td><strong>Kotz et al (2024)</strong></td>
@@ -175,7 +176,7 @@
 <p>[!NOTE]<br>My take: we definitely need a non-linear function. The difficulty, as Dietz and Stern (2015) highlight is that <strong>we have no idea about what happens at higher levels</strong>. Although some disagree (e.g., Bilal) it is quite likely that at higher levels the damages are start to induce further damages, leading to cascading effects. Fortunately, this is not something that we have historical evidence on.</p>
 <p><strong>Non-linear effects are definitely necessary, and it is a welcome step for the NGFS to include it in the scenarios. However, with regards to higher temperature damages we face the issue that we face with the rest of the modelling exercise as well - we have to rely on much smaller magnitude transitory weather deviations to identify the effect.</strong></p>
 </blockquote>
-<h2 id="what-39-s-still-missing">What&#39;s still missing?</h2>
+<h2 id="whats-still-missing">What&#39;s still missing?</h2>
 <p>Both the NGFS note and the Kotz et al. (2024) paper can be applauded for presenting various concerns and limitations about the existing / applied methods. I aim to reiterate the main ones or ones that are relevant for our focus, these are the following:</p>
 <ul>
 <li>Identifying climate change impacts from short-term fluctuations</li>
@@ -185,7 +186,7 @@
 <li>Spill-over effects are missing</li>
 </ul>
 <h3 id="identifying-climate-change-from-short-term-fluctuations">Identifying climate change from short-term fluctuations</h3>
-<p>This is a main methodological issue across most of the literature. Kotz et al. (2024), Bilal and Känzig (2024) or even Burke et al (2015) all based on the idea that we can identify the reactions of economic output (or the economic system more generally) based on historically observed reactions of the economic system to short-term deviations in climate variables. Basically, we are trying to say how much less productive labour will be with a $+1^{\circ}$ average temperature increase based on how much less productive labour was when the average in a given area was $+0.3^{\circ}$ higher in a given year than usually (of course this is a simplification).</p>
+<p>This is a main methodological issue across most of the literature. Kotz et al. (2024), Bilal and Känzig (2024) or even Burke et al (2015) all based on the idea that we can identify the reactions of economic output (or the economic system more generally) based on historically observed reactions of the economic system to short-term deviations in climate variables. Basically, we are trying to say how much less productive labour will be with a \(+1^{\circ}\) average temperature increase based on how much less productive labour was when the average in a given area was \(+0.3^{\circ}\) higher in a given year than usually (of course this is a simplification).</p>
 <p><strong>The issue is that climate change is not weather change, or deviation of the weather in a given (short) period</strong> (Stainforth, 2024). And apparently to capture the effects of <em>climate change</em> rather than <em>weather change</em> we do not have (on the macroeconomic level) the proper methods / data / etc. This is also why the <em>function form</em> garners more attention that in other economic estimations, because (especially for higher temperatures) <strong>we do not have observations, only expectations.</strong></p>
 <p>Crucially, while the econometric approach to understand the relationship between climate variables and economic output is an important method and a good starting point, <strong>to <em>really understand the economic effects of expected climate change</em> further modelling will need to go beyond what can be known based on statistical models applied to historical data</strong>. It will have to evaluate the possible impact channels one-by-one, working with a variety of fields including natural sciences and engineering to build up an understanding of the mechanisms of action and causality, rather than chase correlations.</p>
 <h3 id="tipping-points-tails-risks">Tipping points / tails risks</h3>
@@ -234,6 +235,21 @@
     <p>&copy; 2026 Bence Kiss-Dobronyi &middot; <a href="mailto:bence.kiss-dobronyi@uni-corvinus.hu">bence.kiss-dobronyi@uni-corvinus.hu</a></p>
   </div>
 </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.11/katex.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.11/contrib/auto-render.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    if (window.renderMathInElement) {
+      renderMathInElement(document.body, {
+        delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '\\(', right: '\\)', display: false }
+        ],
+        throwOnError: false
+      });
+    }
+  });
+</script>
 <script src="../script.js"></script>
 </body>
 </html>

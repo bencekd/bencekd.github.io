@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.11/katex.min.css">
 </head>
 <body>
 <header class="site-header">
@@ -76,7 +77,7 @@
 <p><em>ILO report</em>, <img src="assets/free_access.png" alt="" class="inline-icon" width="11"> <a href="https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40ed_emp/%40emp_ent/documents/publication/wcms_866945.pdf" target="_blank" rel="noopener noreferrer">download report</a>, <img src="assets/free_access.png" alt="" class="inline-icon" width="11"> <a href="https://www.camecon.com/hubfs/wcms_866943.pdf" target="_blank" rel="noopener noreferrer">Indonesia</a>, <img src="assets/free_access.png" alt="" class="inline-icon" width="11"> <a href="https://admin.un-page.org/wp-content/uploads/2023/07/brazil-modelling-and-comparing-employment-impacts-of-covid-19-crisis-and-recovery-policies.pdf" target="_blank" rel="noopener noreferrer">Brazil</a>,<br>Authors: Alexandri, E., Arsenio, F., <strong>Kiss-Dobronyi, B.</strong>, Suta, CM., Chewpreecha, U., Harsdroff, M.</p>
 <h4 id="accelerating-green-recovery-towards-climate-neutral-economies-2023">Accelerating Green Recovery Towards Climate-Neutral Economies (2023)</h4>
 <p><em>UN PAGE report</em>, <img src="assets/free_access.png" alt="" class="inline-icon" width="11"> <a href="https://admin.un-page.org/wp-content/uploads/2023/05/short-version-gepi-and-modelling-consultation-workshop-presentation.pdf" target="_blank" rel="noopener noreferrer">download presentation</a><br>Authors: Gainza, R., Pineda, J., <strong>Kiss-Dobronyi., B.</strong></p>
-<h4 id="support-south-africa-39-s-presidential-climate-commission-building-consensus-on-key-policy-recommendations-for-just-transition-pathways-to-net-zero-2023">Support South Africa&#39;s Presidential Climate Commission building consensus on key policy recommendations for just transition pathways to net zero (2023)</h4>
+<h4 id="support-south-africas-presidential-climate-commission-building-consensus-on-key-policy-recommendations-for-just-transition-pathways-to-net-zero-2023">Support South Africa&#39;s Presidential Climate Commission building consensus on key policy recommendations for just transition pathways to net zero (2023)</h4>
 <p><em>Report</em>, <img src="assets/free_access.png" alt="" class="inline-icon" width="11"> <a href="https://pccommissionflo.imgix.net/uploads/images/CE_sapcc_eucd_E3ME_june2024.pdf" target="_blank" rel="noopener noreferrer">download presentation</a><br>Authors: Hartvig, A., van Hummelen, S., <strong>Kiss-Dobronyi, B.</strong>, Arsenio, F., Gutzianas, I.</p>
 <h4 id="the-macroeconomic-implications-of-financing-investments-with-climate-related-fiscal-revenues-2022">The macroeconomic implications of financing investments with climate-related fiscal revenues (2022)</h4>
 <p><em>European Commission report</em>, <img src="assets/free_access.png" alt="" class="inline-icon" width="11"> <a href="https://data.europa.eu/doi/10.2833/928968" target="_blank" rel="noopener noreferrer">download report</a><br>Authors: van Hummelen, S., Alexandri, E., <strong>Kiss-Dobronyi, B.</strong>, Fragkiadakis, K., Vrontisi, Z., Fragkiadakis, D., Charalampidis, G.</p>
@@ -109,6 +110,21 @@
     <p>&copy; 2026 Bence Kiss-Dobronyi &middot; <a href="mailto:bence.kiss-dobronyi@uni-corvinus.hu">bence.kiss-dobronyi@uni-corvinus.hu</a></p>
   </div>
 </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.11/katex.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.11/contrib/auto-render.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    if (window.renderMathInElement) {
+      renderMathInElement(document.body, {
+        delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '\\(', right: '\\)', display: false }
+        ],
+        throwOnError: false
+      });
+    }
+  });
+</script>
 <script src="script.js"></script>
 </body>
 </html>
